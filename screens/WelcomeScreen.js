@@ -1,5 +1,5 @@
 
-import React, { useRef, useEffect } from 'react';
+/*import React, { useRef, useEffect } from 'react';
 import { StyleSheet, Text, View, Animated, TouchableOpacity } from 'react-native';
 
 const WelcomeScreen = ({ navigation }) => {
@@ -32,11 +32,11 @@ const WelcomeScreen = ({ navigation }) => {
     <View style={styles.container}>
       <Text style={styles.appName}>Bus Mate</Text>
 
-      {/* Animation for the bus */}
-      <Animated.View style={[styles.bus, { transform: [{ translateX: busTranslateX }] }]} />
+      {/* Animation for the bus */
+     /* <Animated.View style={[styles.bus, { transform: [{ translateX: busTranslateX }] }]} />
 
-      {/* Popup animation */}
-      <Animated.View style={[styles.popup, { opacity: popupOpacity }]}>
+      {/* Popup animation */
+    /*  <Animated.View style={[styles.popup, { opacity: popupOpacity }]}>
         <Text style={styles.popupText}>Let's Get Started</Text>
         <TouchableOpacity style={styles.button} onPress={handleGetStarted}>
           <Text style={styles.buttonText}>Get Started</Text>
@@ -84,4 +84,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default WelcomeScreen;
+export default WelcomeScreen; */
